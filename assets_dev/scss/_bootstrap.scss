@@ -1,0 +1,24 @@
+/* import what we need to override */
+// @import "../vendor/bootstrap/scss/functions";
+// @import "../vendor/bootstrap/scss/variables";
+
+// /* set the overriding variables */
+// $grid-breakpoints: (xxs: 0,
+//     xs: 320px, // Most of the Smartphones Mobiles (Portrait)
+//     sm: 480px, // Low Resolution Tablets, Mobiles (Landscape)
+//     md: 768px, // Tablets, Ipads
+//     lg: 1024px, // Laptops, Desktops
+//     xl: 1280px, // Desktops
+//     xxl: 1440px, // Large Desktops
+//     xxxl: 2560px // 4K Desktops
+// );
+// $container-max-widths: (xs: 0px,
+//     sm: 320px,
+//     md: 667px,
+//     lg: 992px,
+//     xl: 1200px,
+//     xxl: 1440px,
+//     xxxl: 2560px);
+
+/* override the !default vars with the values we set above */
+@import "../vendor/bootstrap/scss/bootstrap";
